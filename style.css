@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "Josefin Sans";
+    line-height: 24px;
+    background: antiquewhite;
+    padding-top: 200px;
+}
+
+@media screen and (min-width: 700px) {
+
+    body {
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+a:hover {
+
+    color: #930114;
+}
+
+
+
+p {
+    padding: 24px;
+    margin: auto;
+    max-width: 550px;
+    font-size: 1.25rem;
+
+
+}
+
+h1,
+h2 {
+    letter-spacing: 0.09em;
+    font-family: "IM FELL DW Pica SC";
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding: 24px;
+    line-height: 50px;
+    font-size: 3rem;
+}
+
+
+h3 {
+
+    letter-spacing: 0.09em;
+    font-family: "IM FELL DW Pica SC";
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    padding: 12px;
+    font-size: 1.25rem;
+}
+
+.main-nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.main-nav ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 24px;
+    font-family: "IM FELL DW Pica SC";
+    max-width: 80%;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.main-nav li {
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    min-width: 10%;
+}
+
+
+@media screen and (min-width: 700px) {
+    .main-nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+.rect-img-container {
+    display: block;
+    position: relative;
+  }
+  
+  .rect-img-container::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  
+  .rect-img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    object-fit: cover; }

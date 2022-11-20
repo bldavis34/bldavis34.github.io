@@ -1,0 +1,62 @@
+
+
+.event {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.event img {
+
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 50px 50px 25px 50px;
+    transition: transform 100ms;
+}
+
+
+.event img:hover {
+    transform: scale(97%);
+}
+
+.event h2 {
+
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+
+
+.event a:link, .event a:visited {
+
+    color: black;
+}
+
+
+.event a:hover {
+
+    color: #930114;
+}
+
+.event p {
+
+    padding: 0;
+    max-width: 350px;
+}
+
+.roxie-media {
+
+    padding-bottom: 50px;
+    margin: 50px;
+}
+
+.hollow-media {
+
+    padding-bottom: 50px;
+    margin: 50px;
+}

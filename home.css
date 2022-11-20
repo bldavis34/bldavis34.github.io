@@ -1,0 +1,66 @@
+
+
+.home-header {
+
+    border: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+    .home-header {
+        padding: 50px;
+    }
+}
+
+section.home {
+    padding: 50px 12px;
+    border: 0;
+    margin: 0;
+
+}
+
+
+
+.large-pic {
+    width: 100%;
+    max-width: 550px;
+    padding: 50px;
+}
+
+.home-footer {
+    background-color: black;
+    padding: 12px;
+    color: white
+}
+
+.home-footer a:link,
+.home-footer a:visited {
+
+    color: white;
+}
+
+.after-dark {
+    background-color: black;
+    color: white;
+}
+
+
+.hollow-inside {
+    background-color: antiquewhite;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .book-1,
+    .book-2,
+    .header-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
