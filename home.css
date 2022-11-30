@@ -1,5 +1,3 @@
-
-
 .home-header {
 
     border: 0;
@@ -31,6 +29,10 @@ section.home {
     padding: 50px;
 }
 
+.selfie {
+    padding: 20px;
+}
+
 .home-footer {
     background-color: black;
     padding: 12px;
@@ -46,11 +48,13 @@ section.home {
 .after-dark {
     background-color: black;
     color: white;
+    margin: -8px;
 }
 
 
 .hollow-inside {
     background-color: antiquewhite;
+    margin: -8px;
 }
 
 
@@ -63,4 +67,54 @@ section.home {
         justify-content: center;
         align-items: center;
     }
+}
+
+.book-img,
+.book-img2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-content: space-around;
+
+}
+
+
+
+
+
+.book-img div:first-of-type {
+
+    max-width: 550px;
+}
+
+.book-img a {
+
+    background-color: white;
+    color: #930114;
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 12px;
+    transition: transform 100ms;
+}
+
+.book-img a:hover {
+    transform: scale(97%);
+
+}
+
+.book-img2 a {
+
+    background-color: black;
+    color: white;
+}
+
+section {
+
+    padding-bottom: 50px;
 }
